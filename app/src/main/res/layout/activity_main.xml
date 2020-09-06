@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutId"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sampleToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Toast"
+        android:textAllCaps="false">
+
+    </Button>
+
+    <Button
+        android:id="@+id/customToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp">
+
+    </Button>
+    <Button
+        android:id="@+id/errorToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error Toast"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp">
+
+    </Button>
+    <Button
+        android:id="@+id/successToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success Toast"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/infoToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Toast"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/warningToastId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warning Toast"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp">
+
+    </Button>
+    <Button
+        android:id="@+id/snackBarId"
+        android:text="SnackBar"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
